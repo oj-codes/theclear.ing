@@ -1,8 +1,11 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Jóga — Structure & Shape",
-  description: "A time-coded reading of Björk's Jóga.",
+  title: {
+    default: "in the clearing",
+    template: "%s · in the clearing",
+  },
+  description: "a clearing for things being made.",
 };
 
 export default function RootLayout({ children }) {
