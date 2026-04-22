@@ -30,16 +30,28 @@ export default function Home() {
         }}
       />
 
-      <Link
-        href="/joga"
-        className="mt-12 text-xl opacity-60 hover:opacity-100 transition-opacity duration-700"
-        style={{
-          color: "#e8e0d4",
-          fontFamily: "'Cormorant Garamond', serif",
-        }}
-      >
-        jóga
-      </Link>
+      <nav className="mt-12 flex flex-col items-center gap-6">
+        <Link
+          href="/joga"
+          className="text-xl opacity-60 hover:opacity-100 transition-opacity duration-700"
+          style={{
+            color: "#e8e0d4",
+            fontFamily: "'Cormorant Garamond', serif",
+          }}
+        >
+          jóga
+        </Link>
+        <Link
+          href="/marcel"
+          className="text-xl opacity-60 hover:opacity-100 transition-opacity duration-700"
+          style={{
+            color: "#e8e0d4",
+            fontFamily: "'Cormorant Garamond', serif",
+          }}
+        >
+          marcel
+        </Link>
+      </nav>
     </main>
   );
 }
